@@ -1,0 +1,48 @@
+h1 {
+	color: blue;
+}
+h2 {
+	font-family: "Helvetica";
+	a {
+		color: blue;
+	}
+}
+div {
+	background-color: lightblue;
+}
+
+@import 'functions';
+
+@import 'variable-sas';
+
+@import 'colors';
+
+@import 'newbreakpoints';
+
+@import 'button';
+
+@import 'grid';
+
+h2 {
+	color: $primary_color;
+
+}
+a {
+	color: $secondary_color;
+}
+button {
+	color: white;
+	border: 0;
+	background: $primary_color;
+}
+.error {
+	color: $error;
+	border-color: $error;
+	border-style: solid;
+}
+.notification {
+	color: $secondary_color;
+	border-color: $secondary_color;
+	border-style: solid;
+}
+

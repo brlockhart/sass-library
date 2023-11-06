@@ -1,0 +1,23 @@
+//Variable Testing
+$primary_color: orange;
+$secondary_color: green;
+$error: red;
+$information: yellow;
+
+//Colors Palette
+$colors: (
+	"primary": $primary_color,
+	"secondary": $secondary_color,
+	"error": $error,
+	"information": $information,
+	"blue": #1919e6,
+	"red": #e61919,
+	"yellow": #e6e619,
+	"green": #19e635,
+	"purple": #9900ff,
+	"black": black,
+	"white": white,
+	"orange": orange,
+);
+
+@debug map-get($colors, "purple");
